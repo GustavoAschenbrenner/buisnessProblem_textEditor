@@ -24,9 +24,9 @@ button_clear = Button(root, text="clear", background='red',command=clear)
 #text box
 text_box = Text(height=600, width=300)
 
-text1 = Text(root, text="unsaved", height=5, width=52)
-text2 = Text(root, text="unchecked",height=5, width=52)
-text3 = Text(root, text="uncleared	",height=5, width=52)
+text1 = Text(root,height=5,width=52)
+text2 = Text(root,height=5,width=52)
+text3 = Text(root,height=5,width=52)
 
 
 # Place widgets in window (with pack function!)
