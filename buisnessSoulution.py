@@ -7,7 +7,7 @@ def save():
 def auto_check():
 	root.title(text2.get())
 def clear():
-	root.title(text1.get())
+	root.title(text3.get())
 
 # Create the main window
 root = Tk()
