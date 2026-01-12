@@ -18,15 +18,15 @@ root.geometry("1200x600")
 
 # Create buttons
 button_save = Button(root, text="save", background='green',command=save)
-button_check = Button(root, text="auto check", background='skyBlue')
-button_clear = Button(root, text="clear", background='red')
+button_check = Button(root, text="auto check", background='skyBlue', command=auto_check)
+button_clear = Button(root, text="clear", background='red',command=clear)
 
 #text box
 text_box = Text(height=600, width=300)
 
-text1 = Text(root, height=5, width=52)
-text2 = Text(root, height=5, width=52)
-text3 = Text(root, height=5, width=52)
+text1 = Text(root, text="unsaved", height=5, width=52)
+text2 = Text(root, text="unchecked",height=5, width=52)
+text3 = Text(root, text="uncleared	",height=5, width=52)
 
 
 # Place widgets in window (with pack function!)
