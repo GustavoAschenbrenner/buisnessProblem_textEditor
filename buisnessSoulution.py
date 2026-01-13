@@ -3,11 +3,11 @@ from tkinter import *
 from tkmacosx import Button
 
 def save():
-	root.title(text1.get("saved",END))
+	root.title(text1.get(text="saved",END))
 def auto_check():
-	root.title(text2.get("checked",END))
+	root.title(text2.get(text="checked",END))
 def clear():
-	root.title(text3.get("cleared",END))
+	root.title(text3.get(text="cleared",END))
 
 # Create the main window
 root = Tk()
