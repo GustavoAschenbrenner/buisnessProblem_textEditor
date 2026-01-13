@@ -3,11 +3,11 @@ from tkinter import *
 from tkmacosx import Button
 
 def save():
-	text1.title(text1.get(text="saved"))
+	text1.config(text="saved")
 def auto_check():
-	text2.title(text2.get(text="checked"))
+	text2.config(text="checked")
 def clear():
-	text3.title(text3.get(text="cleared"))
+	text3.config(text="cleared")
 
 # Create the main window
 root = Tk()
@@ -29,7 +29,7 @@ text_box = Text(height=600, width=300)
 
 
 
-
+text1.grid(row=3, column=0)
 
 # Place widgets in window (with pack function!)
 button_save.pack()
