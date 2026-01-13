@@ -29,16 +29,16 @@ text_box = Text(height=600, width=300)
 
 
 
-text1.grid(row=3, column=0)
 
-# Place widgets in window (with pack function!)
-button_save.pack()
-button_check.pack()
-button_clear.pack()
-text1.pack()
-text2.pack()
-text3.pack()
-text_box.pack()
+
+# Place widgets in window (with grid function!)
+button_save.grid(row=0,column=0)
+button_check.grid(row=0,column=0)
+button_clear.grid(row=0,column=0)
+text1.grid(row=0,column=0)
+text2.grid(row=0,column=0)
+text3.grid(row=0,column=0)
+text_box.grid(row=0,column=0)
 
 #button code
 
