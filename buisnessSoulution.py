@@ -25,7 +25,7 @@ button_clear = Button(root, text="clear",background='red',command=clear)
 text3 = Label(root,text="uncleared",height=5,width=52)
 
 #text box
-text_box = Text(height=600, width=300)
+text_box = Text(height=300, width=150)
 
 
 
