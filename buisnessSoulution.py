@@ -32,13 +32,13 @@ text_box = Text(height=300, width=150)
 
 
 # Place widgets in window (with grid function!)
-button_save.grid(row=0, column=0)
-button_check.grid(row=0, column=1)
-button_clear.grid(row=0, column=2)
+button_save.grid(row=-1, column=0)
+button_check.grid(row=-1, column=1)
+button_clear.grid(row=-1, column=2)
 text1.grid(row=1, column=0)
 text2.grid(row=1, column=1)
 text3.grid(row=1, column=2)
-text_box.grid(row=2,column=0)
+text_box.grid(row=2,column=0,columnspan=4)
 
 #button code
 
